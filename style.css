@@ -14,7 +14,12 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 34px;
+    image-rendering: optimizeSpeed;
 }
 
 .tooltip {
