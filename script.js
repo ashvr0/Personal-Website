@@ -78,6 +78,10 @@ function createCategory(container, categoryTitle, items) {
         const mediaItem = document.createElement("div");
         mediaItem.className = "media-item";
 
+        if (categoryTitle === "Movies" || categoryTitle === "Games") {
+            mediaItem.classList.add("poster-wide");
+        }
+
         const poster = document.createElement("div");
         poster.className = "media-poster";
 

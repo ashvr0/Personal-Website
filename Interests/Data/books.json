@@ -1,37 +1,9 @@
 [
-  {
-    "title": "Haimiya-senpai wa Kowakute Kawaii",
-    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx201773-ecGmhCRhfu05.jpg",
-    "score": "10/10"
-},
-{
-        "title": "Meditations",
-        "image": "https://assets.hardcover.app/external_data/47659608/cee064c51e9acb6a09bb7158794ef45e231dde6e.jpeg",
-        "score": "10/10"
-    },
-    {
-        "title": "On the Heights of Despair",
-        "image": "https://assets.hardcover.app/edition/30382624/c87cd4908b1460950cbcc2f17c01792f6451970b.jpeg",
-        "score": "10/10"
-    },
-    {
-        "title": "Metamorphosis",
-        "image": "https://covers.openlibrary.org/b/id/12820198-L.jpg",
-        "score": "10/10"
-    },
-    {
-        "title": "The Myth of Sisyphus",
-        "image": "https://assets.hardcover.app/external_data/48503761/f6334fc1456e9d9b5043c833710aae40fa83d4f1.jpeg",
-        "score": "10/10"
-    },
-    {
-        "title": "Fahrenheit 451",
-        "image": "https://covers.openlibrary.org/b/id/12993656-L.jpg",
-        "score": "10/10"
-    },
-    {
-        "title": "Crime and Punishment",
-        "image": "https://assets.hardcover.app/edition/11223468/295861-L.jpg",
-        "score": "10/10"
-    }
+{"title": "Haimiya-senpai wa Kowakute Kawaii","image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx201773-ecGmhCRhfu05.jpg","score": "10/10"},
+{"title": "Meditations","image": "https://assets.hardcover.app/external_data/47659608/cee064c51e9acb6a09bb7158794ef45e231dde6e.jpeg","score": "10/10"},
+{"title": "On the Heights of Despair","image": "https://assets.hardcover.app/edition/30382624/c87cd4908b1460950cbcc2f17c01792f6451970b.jpeg","score": "10/10"},
+{"title": "Metamorphosis","image": "https://ia800100.us.archive.org/view_archive.php?archive=/5/items/l_covers_0012/l_covers_0012_82.zip&file=0012820198-L.jpg","score": "10/10"},
+{"title": "The Myth of Sisyphus","image": "https://assets.hardcover.app/external_data/48503761/f6334fc1456e9d9b5043c833710aae40fa83d4f1.jpeg","score": "10/10"},
+{"title": "Fahrenheit 451","image": "https://covers.openlibrary.org/b/id/12993656-L.jpg","score": "10/10"},
+{"title": "Crime and Punishment","image": "https://assets.hardcover.app/edition/11223468/295861-L.jpg","score": "10/10"}
 ]

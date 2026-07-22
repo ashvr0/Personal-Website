@@ -38,7 +38,7 @@ a:hover {
 
 /* Layout */
 main {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -173,6 +173,34 @@ main > p {
   user-select: none;
 }
 
+/* Code blocks (Shiki output) */
+article pre.shiki {
+  border: 1px solid rgba(58, 53, 48, 0.15);
+  border-radius: 8px;
+  padding: 16px 20px;
+  overflow-x: auto;
+  margin: 24px 0;
+}
+
+article pre.shiki code {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+article pre.shiki .line {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  article pre.shiki,
+  article pre.shiki span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   #projects {
@@ -197,6 +225,7 @@ main > p {
 }
 
 
+/* interests */
 #interests-container {
     width: 100%;
 }
@@ -209,16 +238,53 @@ main > p {
     margin-bottom: 15px;
 }
 
+.interests-category {
+    position: relative;
+}
+
+.interests-category::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 20px;
+    width: 30px;
+    background: linear-gradient(to right, rgba(250, 248, 244, 0), var(--bg));
+    pointer-events: none;
+}
+
 .media-scroll {
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
-    scrollbar-width: thin;
     cursor: grab;
+
+    scrollbar-width: auto;
+    scrollbar-color: rgba(255, 255, 255, 0.55) rgba(255, 255, 255, 0.08);
 }
 
 .media-scroll:active {
     cursor: grabbing;
+}
+
+.media-scroll::-webkit-scrollbar {
+    height: 10px;
+}
+
+.media-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+}
+
+.media-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+.media-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .media-track {
@@ -272,4 +338,13 @@ main > p {
 .media-poster:hover .media-hover-overlay,
 .media-poster:hover .media-title {
     opacity: 1;
+}
+
+.media-item.poster-wide {
+    width: 240px;
+}
+
+.media-item.poster-wide .media-poster {
+    width: 240px;
+    height: 135px;
 }
