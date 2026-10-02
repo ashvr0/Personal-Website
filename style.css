@@ -201,30 +201,6 @@ article pre.shiki .line {
   }
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  #projects {
-    grid-template-columns: 1fr;
-  }
-
-  #projects img {
-    height: 180px;
-  }
-}
-
-@media (max-width: 480px) {
-  main {
-    width: 94%;
-  }
-
-  #contact {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-}
-
-
 /* interests */
 #interests-container {
     width: 100%;
@@ -347,4 +323,27 @@ article pre.shiki .line {
 .media-item.poster-wide .media-poster {
     width: 240px;
     height: 135px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #projects {
+    grid-template-columns: 1fr;
+  }
+
+  #projects img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    width: 94%;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 }

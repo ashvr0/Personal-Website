@@ -79,10 +79,16 @@
   },
   {
     "appid": 271590,
-    "name": "Grand Theft Auto V (used as Dying Light placeholder error avoided)",
+    "name": "Grand Theft Auto V",
     "playtime_forever": 0,
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg"
   },
+  {
+    "appid": null,
+    "name": "Grand Theft Auto VI",
+    "playtime_forever": 0,
+    "image": "https://images.igdb.com/igdb/image/upload/t_720p/cocaa5.jpg"
+},
   {
     "appid": 239140,
     "name": "Dying Light",
@@ -107,8 +113,6 @@
     "playtime_forever": 0,
     "image": "https://images.igdb.com/igdb/image/upload/t_720p/co5mnf.jpg"
   },
-
-
  {
     "appid": 319630,
     "name": "Life is Strange",
@@ -174,11 +178,5 @@
     "name": "Mirror's Edge",
     "playtime_forever": 0,
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/17410/header.jpg"
-},
-{
-    "appid": null,
-    "name": "Grand Theft Auto VI",
-    "playtime_forever": 0,
-    "image": "https://images.igdb.com/igdb/image/upload/t_720p/cocaa5.jpg"
 }
 ]
